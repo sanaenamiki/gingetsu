@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+html{
+	overflow-y: scroll;
+}
+a {
+	color: #41200b;
+	text-decoration: none;
+}
+a:hover{
+	color: #924918;
+	text-decoration: underline;
+}
+body{
+	line-height: 1.6;
+	background: #fff8f0;
+	text-align: justify;
+}
+.inner{
+	width: 760px;
+	margin: 0 auto;
+}
+header,
+footer{
+	background: url(../images/bg_repeat.png) repeat-x #ffe7ce;
+	min-width: 760px;
+}
+header .inner{
+	background: url(../images/bg_header.png) no-repeat center top;
+	padding: 7px 15px 7px 40px;
+	width: 705px;
+	min-height: 86px;
+}
+header ul{
+	font-size: 85.72%;
+	text-align: right;
+	margin-top: -1.6em;
+}
+header ul li{
+	display: inline;
+	margin-left: 10px;
+	padding-left: 20px;
+	background:  no-repeat left center;
+}
+header ul .sitemap{
+	background-image: url(../images/icon_sitemap.gif);
+}
+header ul .contact{
+	background-image: url(../images/icon_contact.gif);
+}
+nav{
+	min-width: 760px;
+	border-top: 4px solid #543e1c;
+	background: url(../images/bg_navi.gif) repeat-x;
+}
+nav ul{
+	display: flex;
+}
+nav ul il{
+	width: 152px;
+}
+nav ul li a{
+	display: block;
+	height: 36px;
+	width: 152px;
+}
+
+#bath .nav1 a img,
+#room .nav2 a img,
+#dish .nav3 a img,
+#plan .nav4 a img,
+#guide .nav5 a img,
+nav ul li a:hover img{
+	visibility: hidden;
+}
+nav ul .nav1{
+	background: url(../images/navi1_on.gif) no-repeat;
+}
+nav ul .nav2{
+	background: url(../images/navi2_on.gif) no-repeat;
+}
+nav ul .nav3{
+	background: url(../images/navi3_on.gif) no-repeat;
+}
+nav ul .nav4{
+	background: url(../images/navi4_on.gif) no-repeat;
+}
+nav ul .nav5{
+	background: url(../images/navi5_on.gif) no-repeat;
+}
+.content{
+	background: #fff;
+	width: 740px;
+	padding: 10px;
+}
+main{
+	width: 500px;
+	float: left;
+	margin-left: 10px;
+}
+main h2{
+	margin-bottom: 10px;
+}
+
+main p{
+	margin: 10px;
+}
+#banners{
+	float: right;
+	width: 200px;
+	margin-right: 10px;
+}
+#banners li{
+	margin-bottom: 10px;
+}
+footer{
+	border-top: 3px solid #543e1c;
+	font-size: 85.72%;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 15px 0;
+}
+footer ul{
+	margin-bottom: 10px;
+}
+footer ul li{
+	display: inline-block;
+}
+footer ul li+li::before{
+	content: " | ";
+}
+
+#home .home a,
+#bath .nav1 a,
+#room .nav2 a,
+#dish .nav3 a,
+#plan .nav4 a,
+#guide .nav5 a,
+#contact .contact a,
+#sitemap .sitemap a{
+	color: #924918;
+	text-decoration: underline;
+
+}
+body:not(#home) main h2{
+	font-size: 150%
+	letter-spacing: 0.2em;
+	padding-left: 12px;
+	border-bottom: 1px solid #543e1c;
+	border-left: 5px solid #543e1c
+}

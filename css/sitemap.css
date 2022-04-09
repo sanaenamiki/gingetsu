@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+main ul{
+	margin: 0 10px 0 10px;
+}
+main ul li{
+	border-bottom: dotted #ff0000 1px;
+	padding-left: 12px;
+	line-height: 2;
+}
+main ul li span{
+	color: #800000;
+	font-size: 0.7rem;
+	padding-right: 10px;
+}
+main ul .sub{
+	margin-left: 1em;
+}

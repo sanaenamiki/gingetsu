@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+h3{
+	background: #ffefd5;
+	border-top: dotted #8b4513 1px;
+	border-bottom: dotted #8b4513 1px;
+	color: #8b4513;
+	line-height: 30px;
+	padding: 0 12px 0;
+	margin-top: 24px;
+}
+table{
+	margin-top: 10px;
+	border: 0px none;
+	width: 500px;
+}
+
+main tr th,
+main tr td{
+	border-left: 0px none;
+	border-right: 0px none;
+	border-top: 0px none;
+	border-bottom: dotted #ff0000 1px;
+	padding: 5px;
+	width: 50%;
+}

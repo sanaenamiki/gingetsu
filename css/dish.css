@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+h3{
+	background: #ffefd5;
+	border-top: dotted #8b4513 1px;
+	border-bottom: dotted #8b4513 1px;
+	color: #8b4513;
+	line-height: 30px;
+	padding: 0 1em 0;
+	margin-top: 24px;
+}
+ dl dt img{
+	box-shadow: 2px 2px 0 0;
+	color:#ffb6c1;
+}
+dl div{
+	float: left;
+	width: 242px;
+	margin: 10px 4px 10px 4px;
+}
+dl dt{
+	font-weight: bold;
+}
+dl dd{
+	margin: 5px 0;
+}

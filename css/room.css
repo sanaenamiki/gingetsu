@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+h3{
+	background: #ffefd5;
+	border-top: dotted #8b4513 1px;
+	border-bottom: dotted #8b4513 1px;
+	color: #8b4513;
+	line-height: 30px;
+	padding: 0 12px 0;
+	margin-top: 24px;
+
+}
+main p img{
+	margin-left: -11px;
+}
+dt{
+	width: 110px;
+	padding:5px 12px 5px 12px;
+	float: left;
+	clear: both;
+}
+dd{
+	margin: -23px 0 5px 0;
+    padding:5px 12px 5px 145px;
+	border-bottom: dotted #ff7f50 1px;
+}

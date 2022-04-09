@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+table{
+	margin-top: 10px;
+	border: 0px none;
+	width: 500px;
+}
+
+.color {
+	background: #ffefd5;
+}
+
+main tr th,
+main tr td{
+	border-left: 0px none;
+	border-right: 0px none;
+	border-top: 0px none;
+	border-bottom: dotted #ff0000 1px;
+	padding: 5px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.button .contactButton {
+	display: block;
+    background: #ccc;
+    color: #000;
+    border: 0.5px solid #000;
+	border-radius: 3px;
+    font-size: 1em;
+	padding: 2px;
+	margin: 0 5px;
+}
+
+input[type="text"] {
+	border: 0.5px solid #000;
+    width: 80%;
+    padding: 10px;
+}
+
+textarea {
+	border: 0.5px solid #000;
+    width: 80%;
+    padding: 10px;
+    height: 150px;
+}
+

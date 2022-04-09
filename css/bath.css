@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+main h3{
+	border-bottom: dotted 1px #fa8072;
+}
+main h3 span{
+	color: #fa8072;
+	font-size: 30px;
+	
+}
+main p img{
+	border-radius: 10px;
+	box-shadow: 5px 5px 0 0;
+	color:#ffb6c1;
+}
+main a{
+	display: inline-block;
+	background: #fa8072;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 5px;
+}
+main .btn{
+	text-align: right;
+}
